@@ -15,10 +15,20 @@
 </head>
 <body>
 
-	<!-- Replace 'test1' with a unique name.  Repeat this for every item you want to score. -->
-	<?php rating_form("test1"); ?>
-	<?php rating_form("test2"); ?>
-	<?php rating_form("test3"); ?>
-
+	<!-- Replace 'test' with your table name. Replace 'item' with a unique name, such as item-1, item-2, etc.  Repeat this for every item you want to score. -->
+	<?php rating_form("test",'item'); ?>
+	<?php rating_form("test",'item'); ?>
+	<?php rating_form("test",'item'); ?>
+	
+	<!-- How to implement highest rated items, the example grabs the top 5 highest rated items -->
+	<?php
+	$toprated = highest_rated("question",5);
+	foreach ($toprated as $item) {
+		$itemId = $item['itemId'];
+		$rating = $item['rating'];
+		$votes = $item['votes'];
+		print "$itemId - $rating - $votes<br />";
+	}
+	?>
 </body>
 </html>

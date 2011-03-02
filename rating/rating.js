@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	$('.status').prepend("<div class='score_this'>(<a href='#'>score this item</a>)</div>");
+	$('.status').prepend("<div class='score_this'>(<a href='#'>rate this</a>)</div>");
 	$('.score_this').click(function(){
 		$(this).slideUp();
 		return false;
