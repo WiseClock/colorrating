@@ -2,5 +2,8 @@ ColorRating2
 Copyright 2011 Tyler Longren - tlongren@gmail.com. Released under the MIT License.
 For documentation, see http://colorpowered.com/colorrating/
 
-version 2.0 - March 7, 2011
-first public release of ColorRating2.
+This is forked from Jack Moore's ColorRating code: https://github.com/jackmoore/colorrating
+I added support for multiple tables in the SQLite database, allowing you to rate multiple elements
+and display the highest (or lowest) rated elements from a table.
+
+March 7, 2011 - Version 1.0, first release of ColorRating2
