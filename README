@@ -1,6 +1,6 @@
 ColorRating2
 Copyright 2011 Tyler Longren - tlongren@gmail.com. Released under the MIT License.
-For documentation, see http://colorpowered.com/colorrating/
+http://www.longren.org/features/colorrating2/
 
 This is forked from Jack Moore's ColorRating code: https://github.com/jackmoore/colorrating
 I added support for multiple tables in the SQLite database, allowing you to rate multiple elements
